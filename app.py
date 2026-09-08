@@ -18,7 +18,7 @@ def home():
 
             <p>Cars produced: 127</p>
             <p>Current station: Assembly</p>
-            <p>Version: 1.2.0</p>
+            <p>Version: 1.1.0</p>
         </body>
     </html>
     """
