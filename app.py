@@ -30,6 +30,9 @@ def health():
         "status": "healthy"
     })
 
+@app.route("/machine")
+def machine():
+    return {"name": "Machine-01"}
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080)
