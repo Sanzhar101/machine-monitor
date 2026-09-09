@@ -38,5 +38,9 @@ def status():
 def machine():
     return {"name": "Machine-01"}
 
+@app.route("/version")
+def version():
+    return {"version": "3.0.0"}
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080)
